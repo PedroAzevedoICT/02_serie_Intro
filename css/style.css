@@ -1,0 +1,27 @@
+body{
+    background-color: #545761;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: #b8b2b2;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header .logo{
+    width: 10%;
+    height: auto;
+}
+
+video{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid rgb(8, 185, 103);
+   
+    
+}
+
