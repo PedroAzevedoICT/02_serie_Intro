@@ -1,8 +1,10 @@
 body{
     background-color: #545761;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.6em;
 
 }
+
 
 header{
     background-color: #b8b2b2;
@@ -11,8 +13,15 @@ header{
 }
 
 header .logo{
-    width: 10%;
+    width: 15%;
     height: auto;
+}
+
+header .yoda{
+    width: 15%;
+    height: auto;
+    float: right;
+    border-radius: 5px;
 }
 
 video{
@@ -20,8 +29,67 @@ video{
     height: auto;
     display: block;
     margin: 10px auto;
-    border: 5px solid rgb(8, 185, 103);
-   
-    
+    border: 5px solid rgb(8, 185, 103); 
 }
 
+.divider{
+    margin: 20px 20%;
+    width: 55%;
+    height: auto;
+    display: block;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    justify-content: center;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 1000px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;   
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+.card img{
+    width: 300px;
+    height: auto;
+}
+
+.card .name{
+    margin: 10px;
+    color: rgb(199, 199, 199)
+}
+
+.card:hover{
+    border: 5px solid rgb(8, 185, 103);
+}
+
+aside{
+    position: fixed;
+    top: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-brands{
+    padding: 25px;
+    color: #b8b2b2;
+}
+
+.fa-brands:hover{
+    color: #63e980;
+}
